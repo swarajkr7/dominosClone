@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Page</title>
+    <link rel="stylesheet" href="./style/corporate.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav>
+        <div class="navbarContainer">
+            <div class="upperDiv">
+                 <div class="navLogo">
+                    <a href="index.html">
+                        <img src="https://www.dominos.co.in/theme2/front/images/dominos-logo-241x53.png"/>
+                    </a>
+                 </div>
+                 <div class="navMenu">
+                    <ul>
+                        <li><a href="menu.html">OUR MENU</a></li>
+                        <li><a href="our-menu">DOMINO'S STORES</a></li>
+                        <li><a href="our-menu">GIFT CARD</a></li>
+                        <li><a href="corporatePage.html">CORPORATE ENQUIRY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                 </div>
+                 <div class="navButton">
+                    <a href="/"><button>DOWNLOAD THE APP</button></a>
+                    <a href="/"><button>ORDER ONLINE NOW</button></a>
+
+                 </div>
+            </div>
+            
+        </div>
+     </nav>
+
+     <!-- lower  -->
+     <div class="lower">
+
+     <div class="lowerDiv">
+        <ul>
+            <li><a href="index.html">VIRTUAL PIZZA PARTY</a></li>
+            <li><a href="nonVegPizza.html">E-GIFT VOUCHER</a></li>
+        </ul>
+      
+    </div>
+    </div>
+
+    <!-- middle -->
+
+    <middle>
+        <div id="middleContainer">
+          <div id="left">
+            <div id="left1"><img src="https://www.dominos.co.in/theme2/front/images/corp_query/virtual_pizza_party@3x.png"/></div>
+            <h2>WORK TOGETHER, EAT TOGETHER</h2>
+            <p>As virtual parties have become the new way to bond and enjoy together, it’s time to up these unique celebrations with a unique feast.</p>
+            <div id="left2"><img src="https://www.dominos.co.in/theme2/front/images/corp_query/img_1@3x.png"/></div>
+            <div id="greatTaste">
+                <h2>GREAT TASTE, DELIVERED SAFE</h2>
+                <p>At Domino’s we understand the growing concerns regarding food safety and hygiene. That’s why we take all the necessary precautions and follow strict safety ad hygiene protocols while making delivering your food. So, you can enjoy your safe virtual celebrations with the safest ever virtual feast.</p>
+                <img src="https://www.dominos.co.in/theme2/front/images/corp_query/untouched-new.png"/>
+            </div>
+            <h2>CELEBRATIONS MADE EASY</h2>
+            <P>Convert your work from home into party from home with Domino’s Virtual Feast. Order some good old favourites from Domino’s and celebrate with your colleagues in a new and safer way.</P>
+            <div id="left3"><img src="https://www.dominos.co.in/theme2/front/images/corp_query/celebration@3x.png"/></div>
+            <hr></hr>
+            <div>
+                <h2>Feel free to write to us at</h2>
+                <h2>corporate.sales@jublfood.com</h2>
+            </div>
+            
+            <div>
+                
+            </div>
+          </div>
+          <div id="right">
+            <form id="form">
+                <h3>Contact Us</h3>
+                <p>Please let us know your query</p>
+                <input type="text" placeholder="Name*">
+                <input type="text" placeholder="Organisation">
+                <input type="number" placeholder="Contact Number*">
+                <input type="email" placeholder="Email ID*">
+                <input type="text" placeholder="Location: Area/City/State">
+                <input type="date" placeholder="Tentative Order Date">
+                <input type="text" placeholder="Your Query">
+                <input id="button" type="submit" placeholder="Submit"/>
+            </form> 
+          </div>
+        </div>
+    </middle>
+
+    <!-- footer -->
+
+    <footer>
+
+
+    </footer>
+</body>
+</html>
+
+<script type="module">
+    import footer from './component/footer.js'
+
+    document.querySelector("footer").innerHTML= footer();
+</script>
